@@ -14,7 +14,7 @@
 #import "NBPhoneNumber.h"
 #import "NBPhoneNumberDefines.h"
 #import "NBPhoneNumberDesc.h"
-#import "NBRegExMatcher.h"
+#import <NBRegExMatcher.h>
 
 #if TARGET_OS_IOS
 #import <CoreTelephony/CTCarrier.h>
